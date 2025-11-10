@@ -1,0 +1,35 @@
+services:
+  db:
+    image: postgres:14
+    container_name: dbVineet
+    networks:
+      - my-network
+    environment:
+      - POSTGRES_USER=vineet
+      - POSTGRES_PASSWORD=8287685215
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    restart: unless-stopped
+  pgvineet:
+    image: dpage/pgadmin4
+    container_name: pg_Vineet
+    networks:
+      - my-network
+    environment:
+      - PGADMIN_DEFAULT_EMAIL=kunduvineet6@gmail.com
+      - PGADMIN_DEFAULT_PASSWORD=82876
+    volumes:
+      - pgadmin_data:/var/lib/pgadmin
+    ports:
+      - "5050:80"
+    restart: unless-stopped
+    depends_on:
+      - db
+networks:
+  my-network:
+    driver: bridge
+volumes:
+  pgdata:
+  pgadmin_data:

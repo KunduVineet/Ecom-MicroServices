@@ -1,0 +1,64 @@
+# -------------------------------
+# IntelliJ IDEA / JetBrains IDEs
+# -------------------------------
+.idea/
+*.iml
+out/
+*.ipr
+*.iws
+
+# -------------------------------
+# Maven / Java / Spring Boot
+# -------------------------------
+target/
+build/
+logs/
+*.log
+*.jar
+*.war
+*.ear
+*.class
+
+# -------------------------------
+# Application Config Files
+# -------------------------------
+# Ignore all environment-specific configs
+application.properties
+application-*.properties
+application.yml
+application-*.yml
+.env
+
+# -------------------------------
+# Docker
+# -------------------------------
+# Ignore all Dockerfiles and temp data
+Dockerfile
+docker-compose.override.yml
+**/tmp/
+**/.docker/
+
+# Keep main docker-compose.yml
+!docker-compose.yml
+
+# -------------------------------
+# Node / Frontend (if used)
+# -------------------------------
+node_modules/
+dist/
+
+# -------------------------------
+# System / OS Files
+# -------------------------------
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# -------------------------------
+# Misc
+# -------------------------------
+*.project
+*.classpath
+*.factorypath
+HELP.md
