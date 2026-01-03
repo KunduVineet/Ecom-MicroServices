@@ -1,0 +1,14 @@
+{
+  "workspace": {
+    "id": "cf7c1f98-73d1-48c6-8892-1ac55d41d646"
+  },
+  "entities": {
+    "collections": [
+      "..\\Spring Boot Microservices Professional eCommerce Masterclass.postman_collection.json"
+    ],
+    "environments": [],
+    "specs": [],
+    "flows": [],
+    "globals": []
+  }
+}

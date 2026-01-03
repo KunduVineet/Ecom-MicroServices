@@ -39,7 +39,7 @@ docker-compose.override.yml
 **/.docker/
 
 # Keep main docker-compose.yml
-!docker-compose.yml
+docker-compose.yml
 
 # -------------------------------
 # Node / Frontend (if used)
