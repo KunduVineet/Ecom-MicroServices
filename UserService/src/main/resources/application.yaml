@@ -10,6 +10,9 @@ spring:
 server:
   port: 8082
 
+build:
+  id:9090
+
 # Database Configuration
 #spring.datasource.url=jdbc:postgresql://localhost:5432/user?options=-c%20timezone=UTC
 #spring.datasource.username=vineet
