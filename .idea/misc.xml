@@ -8,6 +8,8 @@
         <option value="$PROJECT_DIR$/ProductService/pom.xml" />
         <option value="$PROJECT_DIR$/UserService/pom.xml" />
         <option value="$PROJECT_DIR$/eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/Consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/Provider/pom.xml" />
       </list>
     </option>
   </component>
